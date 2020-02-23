@@ -2,10 +2,10 @@ import math
 def f(x):
     return math.exp(x)-5*x**2
 
-a = 0
-b = 1
-e = 0.000001
-N = 100
+a = int(input("Masukkan nilai batas bawah = "))
+b = int(input("Masukkan nilai batas atas = "))
+e = float(input("Masukkan nilai toleransi = "))
+N = int(input("Masukkan jumlah iterasi = "))
 iterasi = 0
 
 print('________________________________')
