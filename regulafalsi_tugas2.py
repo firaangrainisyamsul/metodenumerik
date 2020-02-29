@@ -1,6 +1,6 @@
 import math
 def f(x):
-    return x**3-10*x**2+5
+    return 1/((x-0.3)**2+0.01) - 1/((x-0.8)**2+0.04)
 
 a = 1
 b = 3
